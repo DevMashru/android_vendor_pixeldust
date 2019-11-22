@@ -1,3 +1,5 @@
+include vendor/pixeldust/config/BoardConfigQcomDefs.mk
+
 $(call add_json_map, Pixeldust)
 
 $(call add_json_bool,		Should_skip_waiting_for_qsee, 				$(filter true,$(TARGET_KEYMASTER_SKIP_WAITING_FOR_QSEE)))
