@@ -12,28 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# IMS
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    ims_ext_common.xml
-
-# HIDL Wrapper
-PRODUCT_PACKAGES += \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml
-
-# QTI Telephony Utils
-PRODUCT_PACKAGES += \
-    qti-telephony-utils \
-    qti_telephony_utils.xml
-
-# QTI VNDK Framework Detect
-PRODUCT_PACKAGES += \
-    libvndfwk_detect_jni.qti \
-    libqti_vndfwk_detect \
-    libvndfwk_detect_jni.qti.vendor \
-    libqti_vndfwk_detect.vendor
-
 # CAF packages
 
 # MSIM manual provisioning
