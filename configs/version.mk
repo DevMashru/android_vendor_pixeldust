@@ -15,7 +15,6 @@
 # Pixel Dust ROM versioning
 ROM_VERSION := PixelDust-X
 BUILD_VERSION := caf
-SIGN_KEY := X
 
 ifndef SIGN_KEY
   PD_BUILDTYPE := UNOFFICIAL
