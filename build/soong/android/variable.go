@@ -54,6 +54,10 @@ type Product_variables struct {
 		Cppflags []string
 		Shared_libs []string
 	}
+	Target_provides_telephony_ext struct {
+		Cppflags []string
+		Shared_libs []string
+	}
 }
 
 type ProductVariables struct {
@@ -71,4 +75,5 @@ type ProductVariables struct {
 	Uses_qcom_um_4_9_family                 *bool `json:",omitempty"`
 	Uses_qcom_um_4_14_family                *bool `json:",omitempty"`
 	Uses_qti_camera_device                  *bool `json:",omitempty"`
+    Target_provides_telephony_ext           *bool `json:",omitempty"`
 }

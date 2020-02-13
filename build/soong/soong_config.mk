@@ -16,5 +16,6 @@ $(call add_json_bool,           Uses_qcom_um_4_4_family,                $(filter
 $(call add_json_bool,           Uses_qcom_um_4_9_family,                $(filter true,$(TARGET_USES_QCOM_UM_4_9_FAMILY)))
 $(call add_json_bool,           Uses_qcom_um_4_14_family,               $(filter true,$(TARGET_USES_QCOM_UM_4_14_FAMILY)))
 $(call add_json_bool,           Uses_qti_camera_device,                 $(filter true,$(TARGET_USES_QTI_CAMERA_DEVICE)))
+$(call add_json_bool,           Target_provides_telephony_ext,          $(filter true,$(TARGET_PROVIDES_TELEPHONY_EXT)))
 
 $(call end_json_map)

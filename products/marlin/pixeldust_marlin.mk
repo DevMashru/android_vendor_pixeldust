@@ -34,6 +34,9 @@ TARGET_PROVIDES_DATA_SERVICES := true
 # Indicate that we use AOSP surfaceflinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
+# Signal that we provide our own telephony-ext
+TARGET_PROVIDES_TELEPHONY_EXT := true
+
 # Inherit AOSP device configuration for marlin.
 $(call inherit-product-if-exists, device/google/marlin/aosp_marlin.mk)
 
