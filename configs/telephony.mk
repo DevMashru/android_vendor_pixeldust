@@ -14,6 +14,10 @@
 
 # CAF packages
 
+# IMS
+PRODUCT_PACKAGES += ims-ext-common
+PRODUCT_BOOT_JARS += ims-ext-common
+
 # MSIM manual provisioning
 PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
