@@ -70,3 +70,5 @@ BUILD_FINGERPRINT := google/marlin/marlin:8.1.0/OPM1.171019.021/4565141:user/rel
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pixeldust.maintainer="spezi77" \
     ro.pixeldust.device="marlin"
+
+include vendor/pixeldust/configs/facesense.mk

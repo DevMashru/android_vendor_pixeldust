@@ -73,3 +73,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Copy device specific prebuilt files.
 PRODUCT_COPY_FILES += \
     vendor/pixeldust/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
+include vendor/pixeldust/configs/facesense.mk

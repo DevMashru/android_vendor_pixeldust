@@ -72,3 +72,5 @@ PRODUCT_COPY_FILES += \
     vendor/pixeldust/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
+
+include vendor/pixeldust/configs/facesense.mk

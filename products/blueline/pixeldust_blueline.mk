@@ -69,3 +69,5 @@ BUILD_FINGERPRINT := "google/blueline/blueline:10/QQ2A.200501.001.B2/6352890:use
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pixeldust.maintainer="spezi77" \
     ro.pixeldust.device="blueline"
+
+include vendor/pixeldust/configs/facesense.mk
